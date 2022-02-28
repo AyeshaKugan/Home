@@ -1,0 +1,144 @@
+body
+{
+	color:white;
+	background-color:#b7b7a4;
+	font-family:"century gothic",sans-serif,monospace;
+}
+p,h1,h2,h3
+{
+	margin-left:25px;
+	margin-right:25px;
+}
+/*Adds a background color to the navigation bar*/
+.topnav
+{
+	background-color:#DDBEA9;
+	overflow:hidden;
+}
+/*Styles the link on the navigation bar*/
+.topnav a
+{
+	float:left;
+	color:#FFF1E6;
+	text-align:justify;
+	padding:4px 6px;
+	text-decoration:none;
+}
+/*Changes the color of the link when the mouse is hovering over it*/
+.topnav a:hover
+{
+	background-color:#CB997E;
+	color:#FFF1E6;
+}
+/*Adds adds color to the active link*/
+.topnav a.active
+{
+	color:#FFF1E6;
+	background-color:#A5A58D;
+}
+table
+{
+	margin:5%;
+}
+ol
+{
+	display:table;
+	margin:auto;
+}
+a
+{
+	color:#E8FFB7;
+}
+.tableofcontents
+{
+	background-color:#A5A58D;
+}
+
+.cite
+{
+	font-style:italic;
+}
+
+.container 
+{
+  display: flex;
+  align-items: center;
+}
+img
+{
+	width:100%;
+	width:250px;
+}
+
+.image 
+{
+	margin:10px;
+	border-style:solid;
+	border-width:5px;
+	border-color:#EDDCD2;
+}
+
+.text {
+  font-size: 17px;
+  padding-left:10px;
+  margin-right:10px;
+}
+.imagerow
+{
+	float: left;
+	width: 20%;
+	padding:5px;
+	margin:20px;
+	background-color:#CB997E;
+	text-align:center;
+}
+.imagerow p
+{
+	font-size:12px;
+}
+.images::after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+.patternrow
+{
+	float: left;
+	width: 26%;
+	padding:5px;
+	margin:40px;
+	background-color:#CB997E;
+	text-align:center;
+}
+.stitches
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+#space
+{
+	padding-bottom:62px
+}
+#space2
+{
+	padding-bottom:23px
+}
+h1
+{
+	text-align:center;
+	
+}
+.Amigrumi
+{
+	width:250px;
+}
+.footer
+{
+	background-color:#8f857b;
+	overflow:hidden;
+	margin-left:0px;
+	margin-right:0px;
+	font-size:12px;
+}
